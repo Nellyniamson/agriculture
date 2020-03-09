@@ -1,0 +1,171 @@
+
+
+:root{
+    --color-white: #ffffff;
+    --color-black: black;
+    --color-primary: #216353;
+    --color-secondary: #7a4d1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+li{
+    list-style: none;
+}
+
+/***************Navbar*********************/
+/***************************************/
+.navbar ul li a{
+    color:var(--color-black);
+    font-size: 2rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover{
+    color:var(--color-primary);
+    font-size: 2rem;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.navbar ul li {
+    margin-left: 2rem;
+}
+
+/***************Header*********************/
+/***************************************/
+.header{
+    background : url(../images/agriculture-countryside-crop-cropland-259280.jpg);
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-text h1{
+    font-size: 6rem;
+    color: var(--color-white);
+    padding-top:10rem;
+    font-weight: bold;
+}
+
+.green{
+    color: var(--color-primary);
+}
+
+/******form*********************/
+/***************************************/
+.B-form{
+    margin: 10rem 14rem;
+    font-size: 2.5rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    box-shadow:2px 1px 12px 0px #ccc;
+}
+
+.btn-1{
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-white);
+    font-size: 2rem;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    transition: all .3s ease;
+}
+
+.btn-1:focus{
+    outline: none;
+}
+
+.btn-1:hover{
+    color: white;
+    background-color: var(--color-secondary);
+}
+/******partner*********************/
+/***************************************/
+.section6 h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.section6{
+    margin-top: 13rem;
+}
+
+.section6 img{
+    margin-top: 6rem;
+}
+
+/******footer*********************/
+/***************************************/
+
+.footer{
+    margin-top: 14rem;
+    background-color: rgb(230, 243, 229);
+}
+
+.footer h4{
+    font-weight: bold;
+    color: var(--color-secondary);
+    font-size: 3rem;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.footer ul li{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer ul {
+    margin-top: 2rem;
+}
+
+.footer ul li a{
+    color: var(--color-black);
+}
+
+.footer img{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 3rem;
+    padding-left: .2rem;
+}
+/************************footer2********/
+
+.footer2{
+    background-color: var(--color-secondary);
+}
+
+.footer2 p{
+    color: white;
+    text-align:center;
+}

@@ -1,0 +1,492 @@
+
+
+:root{
+    --color-white: #ffffff;
+    --color-black: black;
+    --color-primary: #216353;
+    --color-secondary: #7a4d1d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+li{
+    list-style: none;
+}
+
+/***************Navbar*********************/
+/***************************************/
+
+.navbar ul li a{
+    color:var(--color-black);
+    font-size: 2rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover{
+    color:var(--color-primary);
+    font-size: 2rem;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.navbar ul li {
+    margin-left: 2rem;
+}
+
+/***************Header*********************/
+/***************************************/
+.header{
+    background: url(../images/cocoa-man-colombia-peasant-50707.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head-text h1{
+    font-size: 5rem;
+    color: var(--color-white);
+    padding-top:20rem;
+    font-weight: bold;
+}
+
+.green{
+    color: var(--color-primary);
+}
+
+.btn-link{
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-white);
+    font-size: 2rem;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    transition: all .3s ease;
+    margin-top: 2rem;
+}
+
+.btn-link:focus{
+    outline: none;
+}
+
+.btn-link:hover{
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+/***************section1*********************/
+/***************************************/
+
+.section1{
+    margin-top: 13rem;
+}
+
+.part-left h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-top: 11rem;
+    text-decoration: underline ;
+}
+
+.part-left p{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+}
+
+
+/***************section2*********************/
+/***************************************/
+.section2{
+     background: url(../images/pexels-photo-1410138.jpeg);
+     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 13rem;
+    background-attachment: fixed;
+}
+
+.section2 h2{
+    font-weight: bold;
+    color: var(--color-white);
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    text-decoration: underline ;
+}
+
+.section2 p{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    color: var(--color-white);
+}
+/**********************cards****************/
+.big-cards{
+    margin-top: 3rem;
+}
+
+.cards{
+    width: 25rem;
+    height: 30rem;
+   border: 1px solid var(--color-secondary);
+   background-color: white;
+   border-radius: 1rem;
+   transition: all .3s ease;
+   -ms-transition: all .3s ease;
+   -webkit-transition: all .3s ease;
+}
+
+.cards:hover{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.circle{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    margin: 1rem auto;
+}
+
+.circle span{
+    font-size: 4rem;
+    padding-top:1.5rem;
+    color: white;
+}
+
+.cards h3{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2rem;
+    text-decoration: underline ;
+}
+
+.cards p{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+    color:black;
+}
+
+/***************section3*********************/
+/***************************************/
+
+.section3 h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: underline ;
+}
+
+.section3 p{
+    color: var(--color-black);
+    font-size: 2rem;
+}
+
+.section3 {
+    margin-top: 13rem;
+}
+
+/******************CARDS1*********************/
+
+.cards1 {
+  width: 27rem;
+  box-shadow:2px 1px 12px 0px #ccc;
+  border-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.cards1 h4{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2rem;
+    text-decoration: underline ;
+    margin-top: 1rem;
+}
+
+.cards1 img{
+    border-radius: 1rem;
+}
+
+.btn{
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-white);
+    font-size: 2rem;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    transition: all .3s ease;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+/***************section4*********************/
+/***************************************/
+
+.team{
+    margin-top: 13rem;
+    background-color: rgb(230, 243, 229);
+}
+
+.circle-team1{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);
+    margin-left: 2.4rem;
+    background-image: url(../images/pexels-photo-3681653.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+
+.circle-team1:hover{
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.circle-team2{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);
+    margin-left: 2.4rem;
+    background-image: url(../images/pexels-photo-2321837.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+
+.circle-team2:hover{
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.circle-team3{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);
+    margin-left: 2.4rem;
+    background-image: url(../images/pexels-photo-2804327.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+
+.circle-team3:hover{
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.circle-team4{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-secondary);
+    margin-left: 2.4rem;
+    background-image: url(../images/pexels-photo-2382665.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+
+.circle-team4:hover{
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.brow{
+    margin-top: 6rem;
+}
+
+.team1 h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: underline ;
+}
+
+.team1 p{
+    color: var(--color-black);
+    font-size: 2rem;
+}
+
+
+.team h4{
+    font-weight: bold;
+    color: var(--color-secondary);
+    font-size: 2rem;
+    text-decoration: underline ;
+    margin-top: 2rem;
+}
+
+/***************section5*********************/
+/***************************************/
+
+.Our-advant {
+    margin-top:13rem ;
+    background: linear-gradient(rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3)) , url(../images/pexels-photo-169523.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Our-advant h2{
+    font-weight: bold;
+    color: var(--color-white);
+    font-size: 3rem;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.Our-advant p{
+    color: var(--color-black);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.row-advant{
+    margin-top: 5rem;
+}
+
+/***************section6*********************/
+/***************************************/
+
+.section6 h2{
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.section6{
+    margin-top: 13rem;
+}
+
+.section6 img{
+    margin-top: 6rem;
+}
+
+/***************footer*********************/
+/***************************************/
+
+.footer{
+    margin-top: 14rem;
+    background-color: rgb(230, 243, 229);
+}
+
+.footer h4{
+    font-weight: bold;
+    color: var(--color-secondary);
+    font-size: 3rem;
+    text-decoration: underline ;
+    text-align: center;
+}
+
+.footer ul li{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer ul {
+    margin-top: 2rem;
+}
+
+.footer ul li a{
+    color: var(--color-black);
+}
+
+.footer img{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 3rem;
+    padding-left: .2rem;
+}
+
+.rond{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    float: right;
+    margin-top: -5.5rem;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.rond a{
+    font-size: 5rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+/************************footer2********/
+
+.footer2{
+    background-color: var(--color-secondary);
+}
+
+.footer2 p{
+    color: white;
+    text-align:center;
+}
